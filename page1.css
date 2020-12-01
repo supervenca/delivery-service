@@ -1,0 +1,230 @@
+body {
+    margin: auto;
+    width: 100%;
+    background: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+header {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    height: 72px;
+    width: 100%;
+    position: fixed;
+    display: block;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-top: -56px;
+}
+button {
+    width: 78px;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+}
+.logo {
+    align-items: center;
+    margin-top: 10px;
+}
+.enter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -29px;
+}
+.hidden-xs {
+    margin-left: 25px;
+}
+.restoran {
+    margin-bottom: 80px;
+}
+.search_block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 56px;
+    padding-top: 56px;
+    justify-content: flex-start;
+}
+.search_block>.container>.row {
+    width: auto;
+}
+@media(min-width: 321px) {.search_block>.container>.row {
+    width: 308px;
+}
+}
+@media(min-width: 768px) {.search_block>.container>.row {
+    width: 100%;
+}
+}
+input { 
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    border-bottom: 1px solid #757575;
+    color: #626262;
+    font-size: 16px;
+    line-height: 24px;
+}
+.rest_row {
+    display: flex;
+    flex-direction: row;
+}
+.card>img { 
+    width: 100%;
+}
+.rest>p {
+    font-size: 22px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;
+    margin-top: 56px;
+}
+.card {
+    margin-bottom: 36px;
+}
+.card>p>a {
+    text-decoration: none;
+    font: 1em Roboto, sans-serif;
+    color: #1d1d1d;
+    line-height: 24px;
+}
+.price {
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+}
+.time {
+    font-size: 13px;
+    line-height: 21px;
+    align-content: center;
+    color: #1D1D1D;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    background-color: #262626;
+}
+@media(min-width: 321px) {
+    footer {
+        height: 862px;
+    }
+    .row_links {
+        height: 164px;
+    }
+}
+@media(min-width: 768px) {
+    footer {
+        height: 552px;
+    }
+    .row_links {
+        height: 164px;
+    }
+}
+footer>.container>img {
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+.row_links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    height: auto;
+    justify-content: center;
+}
+.link1>.lang {
+    display: flex;
+    flex-direction: row;
+    width: 227px;
+    height: 40px;
+    background: #3B3B3B;
+    border-radius: 2px;
+}
+.link1>.lang>img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+select {
+    background: #3B3B3B;
+    border-radius: 2px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    width: 100%;
+    border: none;
+}
+.social>p {
+    color: white;
+    margin-top: 33px;
+    margin-bottom: 16px;
+}
+.social>p>span {
+    color: #49A144;
+}
+.link2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.link2>a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 15px;
+}
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.app>a {
+    margin-bottom: 20px;
+    padding-right: 40px;
+}
+.prava {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.prava>a {
+    font-size: 11px;
+    line-height: 13px;
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 40px;
+}
+footer>.container>hr {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    size: 1px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+.button {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 24px;
+    right: 16px;
+}
